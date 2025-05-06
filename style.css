@@ -1,0 +1,24 @@
+/* Calculator Container Styling */
+.calculator {
+  max-width: 320px;
+  background-color: offwhite;
+}
+
+/* Display Styling */
+.display {
+  background-color: black;
+  color: ghostwhite;
+  font-size: 2rem;
+  height: 60px;
+  overflow-x: auto;
+}
+
+/* Button Styling */
+button {
+  height: 60px;
+  font-size: 1.2rem;
+}
+
+button:active {
+  transform: scale(0.95);
+}
